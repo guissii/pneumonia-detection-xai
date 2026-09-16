@@ -1,0 +1,26 @@
+# Datasets volumineux
+archive/
+
+# Python et caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Git & IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Tests & Notebooks (sauf best_resnet18.pt explicitement copié dans le Dockerfile)
+tests/
+notebooks/*.ipynb
+notebooks/*.png
+notebooks/*.pkl
+
+# Documentation & Médias lourds
+images/
+README.md

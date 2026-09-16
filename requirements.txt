@@ -1,0 +1,16 @@
+# Interface
+streamlit>=1.35.0
+
+# Deep Learning
+torch==2.2.2
+torchvision==0.17.2
+
+# Explicabilité
+grad-cam==1.5.0
+
+# Image
+Pillow>=10.3.0
+numpy>=1.26.4
+
+# Tests
+pytest>=8.2.0

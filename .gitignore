@@ -1,0 +1,27 @@
+﻿# Dataset (trop volumineux pour Git)
+archive/
+
+# Python et caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement
+.env
+.env.*
+
+# Fichiers temporaires notebooks
+notebooks/gradcam_cases.pkl
+notebooks/gradcam_3cases.png
